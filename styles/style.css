@@ -5,31 +5,94 @@
     font-family: 'Work Sans', sans-serif;
   }
 /* nav styles start here */
-
-    nav{
-        background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-.nav-title{
-    display: flex;
-    gap: 10px;
+*{
+    box-sizing: border-box;
 }
-.nav-item{
+.nav-container{
+    display: flex;
+    padding:10px 150px;
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    height: 130px;
+    align-items: center;
+}
+
+.logo-container{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.span-g{
+    color: #FF42A5;
+}
+.logo-container p{
+    font-size: 45px;
+}
+.logo-container img{
+    width: 86px;
+}
+.nav-item-container{
+    display: flex;
+    gap: 20px;
+
+}
+.nav-item-container a{
+    color: #3C354F;
+    font-size: 1.125rem;
+    text-decoration: none;
+}
+/* banner-section */
+.banner-section{
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
     display: flex;
     justify-content: space-between;
 }
-.nav-item a{
-    text-decoration: none;
-    text-align: center;
-
+.section-title{
+    color: #0B0223;
+text-align: center;
+font-size: 3rem;
+line-height: normal;
+text-transform: uppercase;
 }
-.banner-section{
-    
-    background: #FFF;
+.section-title-2{
+    margin-top:auto;
+font-size: 6rem;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.features-paragarph{
+    color: #534C64;
+text-align: center;
+font-size: 1.25rem;
+text-transform: lowercase;
+}
+.btn-1{
+    color: #FFF;
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.btn-2{
+    color: #FFF;
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+}
+/* gamer section styles start here */
+.gamer-section{
     display: flex;
-    
+    align-items: center;
+}
+.gamer-title{
+
 }
