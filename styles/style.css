@@ -182,13 +182,25 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     width: 100%;
 height: 821px;
 display: flex;
-
 justify-content: space-between;
 background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
+.careers-point{
+    display: flex;
+    justify-content: space-between;
+}
+.careers-item{
+    display: flex;
+    text-align: start;
+}
+.careers-item-1{
+    display: flex;
+    text-align: end;
+}
 
-/* logo section styles */
-.logo-container{
- 
-    
+/* icon section styles */
+.icon-container{
+display: flex;
+
+
 }
