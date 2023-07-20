@@ -1,18 +1,81 @@
 /* responsive media query */
         /* mobile device */
-@media screen and (max-width: 400px) {
-    nav-container{
-        flex-direction: column;
-        padding: 20px;
-        
-    }
-    logo-container{
-        flex-direction: column;
-        
-    }
-    nav-item-container{
-        flex-direction: column;
-    }
-    
+@media screen and (max-width: 576px) {
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+.nav-container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-item-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.nav-item-container a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-section  {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.gamer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.online-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.play-instant-features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.careers-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon-section{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}    
 /* tablet or medium device */
