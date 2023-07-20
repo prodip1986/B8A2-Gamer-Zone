@@ -79,6 +79,7 @@ align-items: flex-start;
 gap: 10px;
 border-radius: 48px;
 background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+border: 0;
 }
 .btn-2{
     color: #FFF;
@@ -88,6 +89,7 @@ align-items: flex-start;
 gap: 10px;
 border-radius: 48px;
 background: #4EC5F7;
+border: 0;
 }
 /* gamer section styles start here */
 .gamer-section{
@@ -115,6 +117,7 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 padding: 21px 40px;
 color: #FFFFFF;
 gap: 10px;
+border: 0;
 }
 .gamer-para-2{
     width: 520px;
@@ -197,6 +200,15 @@ background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     display: flex;
     text-align: end;
 }
+.btn-4{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    border: 0;
+}
 
 /* icon section styles */
 .icon-section{
@@ -231,7 +243,7 @@ background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     justify-content: center;
 }
 
-.footer-para{
+.footer-logo-title{
     color: #FFF;
     font-size:2.8rem;
 }
